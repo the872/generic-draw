@@ -1,10 +1,20 @@
-.svgContainer {
-    margin: 20px;
-    border: 1px solid black;
-    transition: all 2s;
+.svgContainer svg {
+    width: 98px;
+    height: 98px;
 }
 
-.svgContainer svg {
-    width: 100px;
-    height: 100px;
+.overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-image: radial-gradient(ellipse at center, rgba(100, 100, 100, 0.3) 0%, rgba(100, 100, 100, 0.5) 30%, rgba(100, 100, 100, 0.8) 100%);
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    opacity: 1;
 }
