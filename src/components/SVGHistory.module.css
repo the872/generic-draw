@@ -1,6 +1,7 @@
 .svgContainer {
     margin: 20px;
     border: 1px solid black;
+    transition: all 2s;
 }
 
 .svgContainer svg {

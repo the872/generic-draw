@@ -22,9 +22,8 @@ import srcList from '../examples/examples';
 
 const Index = () => {
   const [history, setHistory] = useState(srcList.slice(0,3))
-  console.log(history);
   const addToHistory = (a) => {
-    setHistory([a, ...history.slice(0,8)]);
+    setHistory([a, ...history.slice(0,15)]);
   }
   return (
     <Container>
