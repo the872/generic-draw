@@ -61,6 +61,7 @@ const SVGViewer = (props) => {
     }
 
     const handleAdd = () => {
+        props.addToSaved(divRef.current.innerHTML);
         if (added) {
             return;
         }
