@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="#f5f5f5"/>
+  <!-- Circles -->
+  <circle cx="150" cy="150" r="50" fill="#4caf50" stroke="#f5f5f5" stroke-width="10"/>
+  <circle cx="250" cy="150" r="50" fill="#f44336" stroke="#f5f5f5" stroke-width="10"/>
+  <circle cx="150" cy="250" r="50" fill="#2196f3" stroke="#f5f5f5" stroke-width="10"/>
+  <circle cx="250" cy="250" r="50" fill="#9c27b0" stroke="#f5f5f5" stroke-width="10"/>
+  <!-- Paths -->
+  <path d="M100 150 L200 150" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M150 100 L150 200" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M250 100 L250 200" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M200 250 L300 250" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M250 200 L250 300" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M150 200 L150 300" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M100 250 L200 250" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+  <path d="M150 300 L150 400" stroke="#f5f5f5" stroke-width="10" fill="none"/>
+</svg>

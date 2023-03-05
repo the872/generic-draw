@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect x="50" y="50" width="50" height="50" fill="#ff1c1c" />
+  <rect x="300" y="50" width="50" height="50" fill="#1c57ff" />
+  <rect x="50" y="300" width="50" height="50" fill="#ffff00" />
+  <rect x="300" y="300" width="50" height="50" fill="#00ff00" />
+  <path d="M 75 75 Q 125 50 175 75 T 275 75" stroke="#fff" stroke-width="8" fill="none" />
+  <path d="M 325 75 Q 275 50 225 75 T 125 75" stroke="#fff" stroke-width="8" fill="none" />
+  <path d="M 75 325 Q 125 350 175 325 T 275 325" stroke="#fff" stroke-width="8" fill="none" />
+  <path d="M 325 325 Q 275 350 225 325 T 125 325" stroke="#fff" stroke-width="8" fill="none" />
+  <circle cx="125" cy="200" r="50" fill="#ff1c1c" />
+  <circle cx="275" cy="200" r="50" fill="#1c57ff" />
+  <path d="M 200 50 Q 225 75 250 50 Q 275 25 300 50 L 325 75 Q 300 100 325 125 Q 350 150 325 175 L 300 200 Q 275 225 250 200 Q 225 175 200 200 L 175 175 Q 200 150 175 125 Q 150 100 175 75 L 200 50" fill="#ffff00" />
+  <path d="M 200 350 Q 225 325 250 350 Q 275 375 300 350 L 325 325 Q 300 300 325 275 Q 350 250 325 225 L 300 200 Q 275 175 250 200 Q 225 225 200 200 L 175 225 Q 200 250 175 275 Q 150 300 175 325 L 200 350" fill="#00ff00" />
+  <path d="M 200 75 Q 150 125 200 175 Q 250 125 200 75 Z" fill="#1c57ff" />
+  <path d="M 200 325 Q 150 275 200 225 Q 250 275 200 325 Z" fill="#ff1c1c" />
+</svg>

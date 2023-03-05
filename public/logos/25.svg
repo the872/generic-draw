@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2400" viewBox="0 0 1200 2400">
+  <!-- Sky -->
+  <rect x="0" y="0" width="1200" height="2400" fill="#ff9a9e"/>
+  <!-- Sun -->
+  <circle cx="1000" cy="300" r="250" fill="#ffd35c"/>
+  <circle cx="1000" cy="300" r="200" fill="#fffacd"/>
+  <!-- Desert -->
+  <rect x="0" y="800" width="1200" height="1600" fill="#ffdf80"/>
+  <!-- Highway -->
+  <rect x="100" y="1700" width="1000" height="50" fill="#ffffff"/>
+  <rect x="200" y="1750" width="800" height="50" fill="#cccccc"/>
+  <rect x="300" y="1800" width="600" height="50" fill="#ffffff"/>
+  <rect x="400" y="1850" width="400" height="50" fill="#cccccc"/>
+  <rect x="500" y="1900" width="200" height="50" fill="#ffffff"/>
+  <!-- Car 1 -->
+  <rect x="400" y="1650" width="200" height="100" fill="#ff4136"/>
+  <rect x="410" y="1655" width="180" height="90" fill="#ffffff"/>
+  <circle cx="425" cy="1730" r="15" fill="#000000"/>
+  <circle cx="575" cy="1730" r="15" fill="#000000"/>
+  <rect x="425" y="1780" width="150" height="30" fill="#000000"/>
+  <!-- Car 2 -->
+  <rect x="700" y="1650" width="200" height="100" fill="#0074d9"/>
+  <rect x="710" y="1655" width="180" height="90" fill="#ffffff"/>
+  <circle cx="725" cy="1730" r="15" fill="#000000"/>
+  <circle cx="875" cy="1730" r="15" fill="#000000"/>
+  <rect x="725" y="1780" width="150" height="30" fill="#000000"/>
+</svg>

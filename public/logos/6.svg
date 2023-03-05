@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1200" viewBox="0 0 2400 1200">
+  <!-- Background -->
+  <rect x="0" y="0" width="2400" height="1200" fill="#faa077"/>
+  <rect x="0" y="600" width="2400" height="600" fill="#fbd1a2"/>
+  <!-- Sun -->
+  <circle cx="200" cy="200" r="150" fill="#f8d4a3"/>
+  <circle cx="200" cy="200" r="130" fill="#fbbf82"/>
+  <circle cx="200" cy="200" r="110" fill="#f8d4a3"/>
+  <circle cx="200" cy="200" r="90" fill="#fbbf82"/>
+  <circle cx="200" cy="200" r="70" fill="#f8d4a3"/>
+  <!-- Cars -->
+  <rect x="400" y="450" width="200" height="100" fill="#ffffff"/>
+  <rect x="1000" y="450" width="200" height="100" fill="#ffffff"/>
+  <rect x="430" y="500" width="140" height="50" fill="#f15a22"/>
+  <rect x="1030" y="500" width="140" height="50" fill="#f15a22"/>
+  <rect x="470" y="460" width="40" height="40" fill="#4d4d4d"/>
+  <rect x="1070" y="460" width="40" height="40" fill="#4d4d4d"/>
+  <rect x="510" y="460" width="40" height="40" fill="#4d4d4d"/>
+  <rect x="1110" y="460" width="40" height="40" fill="#4d4d4d"/>
+  <!-- Road -->
+  <rect x="0" y="750" width="2400" height="300" fill="#6b6b6b"/>
+  <rect x="100" y="800" width="2200" height="200" fill="#ffffff"/>
+  <rect x="100" y="850" width="2200" height="100" fill="#ebebeb"/>
+  <rect x="400" y="800" width="200" height="200" fill="#b7b7b7"/>
+  <rect x="1000" y="800" width="200" height="200" fill="#b7b7b7"/>
+  <!-- Mountains -->
+  <path d="M0,1200 0,800 400,1100Z" fill="#c7c7c7"/>
+  <path d="M600,1200 400,1000 800,900Z" fill="#c7c7c7"/>
+  <path d="M800,1200 600,950 1000,1000Z" fill="#c7c7c7"/>
+  <path d="M1600,1200 1000,900 1200,1100Z" fill="#c7c7c7"/>
+  <path d="M2200,1200 2000,1000 2400,900" fill="#c7c7c7" />
+  <path d="M2400,1200 2000,950 2400,800Z" fill="#c7c7c7"/>
+  <!-- Sun rays -->
+  <line x1="200" y1="50" x2="200" y2="350" stroke="#fbbf82" stroke-width="30"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#fbbf82" stroke-width="30"/>
+  <line x1="106" y1="106" x2="294" y2="294" stroke="#fbbf82" stroke-width="30"/>
+  <line x1="106" y1="294" x2="294" y2="106" stroke="#fbbf82" stroke-width="30"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="#ffffff"/>
+  <!-- Rectangles -->
+  <rect x="50" y="50" width="100" height="100" fill="#f44336"/>
+  <rect x="250" y="50" width="100" height="100" fill="#9c27b0"/>
+  <rect x="50" y="250" width="100" height="100" fill="#2196f3"/>
+  <rect x="250" y="250" width="100" height="100" fill="#4caf50"/>
+  <!-- Paths -->
+  <path d="M75 75 L275 75 L275 275 L75 275 Z" stroke="#000000" stroke-width="10" fill="none"/>
+  <path d="M225 75 L225 275" stroke="#000000" stroke-width="10" fill="none"/>
+  <path d="M75 225 L275 225" stroke="#000000" stroke-width="10" fill="none"/>
+</svg>
