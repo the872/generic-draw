@@ -43,7 +43,8 @@ const SVGEditor = (props) => {
   return (
     <VStack><Box
       border="1px solid rgba(180,220,220,1)"
-      bgColor="white" boxSize="600px"
+      bgColor="white" boxSize="80vw"
+      maxHeight="600px" maxWidth="600px"
       borderRadius="10px">
       <div className={styles.svgContainer} ref={divRef} dangerouslySetInnerHTML={{ __html: props.src }} />
     </Box>

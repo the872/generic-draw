@@ -12,7 +12,8 @@ const SVGViewer = (props) => {
         <VStack>
             {!props.reloaded ?
                 <Flex justifyContent="center" alignItems="center"
-                    boxSize="600px">
+                    boxSize="80vw" 
+                    maxHeight="600px" maxWidth="600px">
                     <Spinner boxSize="100px"
                         thickness='4px'
                         speed='0.65s'
@@ -20,7 +21,8 @@ const SVGViewer = (props) => {
                         color='blue.500' />
                 </Flex> :
                 <Box border="1px solid rgba(180,220,220,1)"
-                    bgColor="white" boxSize="600px"
+                    bgColor="white" boxSize="80vw"
+                    maxHeight="600px" maxWidth="600px"
                     borderRadius="10px" position="relative">
                     <Box onClick={props.handleReload} className={styles.overlay} alignItems="center">
                         <HStack alignItems="center" justifyContent="center" w="100%" h="100%">
