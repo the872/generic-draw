@@ -1,4 +1,4 @@
-import { Box, Button, Flex, FlexProps, Heading, HStack, IconButton, Image, Spinner, VStack } from '@chakra-ui/react'
+import { Box, Button, Flex, FlexProps, Heading, HStack, IconButton, Image, Spinner, Text, VStack } from '@chakra-ui/react'
 import { AddIcon, CheckIcon, DownloadIcon, EditIcon, PlusSquareIcon, RepeatIcon } from '@chakra-ui/icons';
 import { useEffect, useRef, useState } from 'react';
 import { ReactSVG } from 'react-svg';
@@ -18,7 +18,8 @@ const SVGSaved = (props) => {
     }
     return (
         <VStack mb="40px" alignItems="start">
-            <Heading size="sm" fontWeight="light">Saved</Heading>
+            <Heading size="md" fontWeight="light">Saved</Heading>
+            <Text fontSize="sm" fontWeight="thin">Click to edit</Text>
             <HStack overflow="scroll" border="1px solid rgba(180,220,220,0.7)" w={props.w} h="150px">
                 {props.saved.map(x =>
                     <Box border="1px solid black" style={{ margin: "20px" }} boxSize="100px" position="relative">

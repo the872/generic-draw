@@ -1,4 +1,4 @@
-import { Box, Button, Flex, FlexProps, Heading, HStack, IconButton, Image, Spinner, VStack } from '@chakra-ui/react'
+import { Box, Button, Flex, FlexProps, Heading, HStack, IconButton, Image, Spinner, Text, VStack } from '@chakra-ui/react'
 import { AddIcon, CheckIcon, DownloadIcon, PlusSquareIcon, RepeatIcon, ViewIcon } from '@chakra-ui/icons';
 import { useEffect, useRef, useState } from 'react';
 import { ReactSVG } from 'react-svg';
@@ -17,8 +17,9 @@ const SVGHistory = (props) => {
         props.setMode('view');
     }
     return (
-        <VStack my="40px" alignItems="start">
-            <Heading size="sm" fontWeight="light">History</Heading>
+        <VStack mt="40px" alignItems="start">
+            <Heading size="md" fontWeight="light">History</Heading>
+            <Text fontSize="sm" fontWeight="thin">Click to view</Text>
             <HStack overflow="scroll" border="1px solid rgba(180,220,220,0.7)" w={props.w} h="150px">
                 {props.history.map(x =>
                     <Box border="1px solid black" style={{ margin: "20px" }} boxSize="100px" position="relative">

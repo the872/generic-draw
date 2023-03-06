@@ -6,6 +6,10 @@ import {
   ListIcon,
   ListItem,
   Box,
+  UnorderedList,
+  HStack,
+  VStack,
+  Button,
 } from '@chakra-ui/react'
 import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
 
@@ -21,6 +25,7 @@ import { useState } from 'react'
 import srcList from '../examples/examples';
 import SVGSaved from '../components/SVGSaved'
 import SVGEditor from '../components/SVGEditor'
+import SVGOptions from '../components/SVGOptions'
 
 function getRandomInt(min: number, max: number) {
   min = Math.ceil(min);
@@ -99,10 +104,14 @@ const Index = () => {
       setReloaded(true);
     }, 1000);
   }
-  console.log('woah')
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+  const handleMenuClick = () => {
+    setIsMenuVisible(!isMenuVisible);
+  }
   return (
     <Container>
       <SVGHistory history={history} setMode={setMode} setCurrentSvg={setCurrentSvg} w="80vw" />
+      <SVGOptions/>
       {
         mode === "view" ?
           <SVGViewer added={added} downloaded={downloaded}
@@ -118,7 +127,7 @@ const Index = () => {
             addToSaved={addToSaved} /> :
           <SVGEditor src={currentSvg} downloaded={downloaded}
             addToHistory={addToHistory} addToSaved={addToSaved}
-            pendingDownload={pendingDownload} 
+            pendingDownload={pendingDownload}
             handleDownload={handleDownload}
           />
       }
